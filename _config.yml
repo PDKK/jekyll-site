@@ -57,3 +57,5 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+permalink: /blog/:categories/:year/:month/:day/:title.html
+paginate_path: "/blog/page:num/"
