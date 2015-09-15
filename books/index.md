@@ -8,6 +8,14 @@ permalink: /books/
 
 See [Ian Rankin](RankinIan)
 
+### Terry Pratchett
+
+See [Terry Pratchett](PratchettTerry)
+
+### Stella Rimington
+
+See [Stella Rimington](RimingtonStella)
+
 ### Jasper Fforde 
 
 * The well of lost plots
