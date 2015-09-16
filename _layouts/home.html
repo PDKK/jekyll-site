@@ -5,11 +5,16 @@
   <div class="site-wrap">
     {% include header.html %}
 
-    <div class="container">
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
         {{ content }}
+      </div>
     </div>
   </div>
 
+  <div>
+    {% include post_summary.html %}
+  </div>
   
   {% include footer.html %}
 </body>
