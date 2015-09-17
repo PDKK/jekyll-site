@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       Knox-Kennedy
+email:       paul@knox-kennedy.me.uk
+author:      Paul Knox-Kennedy
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://www.knox-kennedy.me.uk"
 date_format: "%b %-d, %Y"
 
 # Google analytics
@@ -13,20 +13,21 @@ google_analytics: UA-53548208-1
 google_verification:
 
 # Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
-show_social_icons:  false
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
 
 # Social icons
-github_username:
+github_username:        PDKK
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username:       hexelpdkk
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -39,7 +40,7 @@ flattr_button:
 show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
+share_facebook: true
 share_twitter: false
 share_googleplus: false
 share_linkedin: false
@@ -57,3 +58,5 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+permalink: /blog/:categories/:year/:month/:day/:title.html
+paginate_path: "/blog/page:num/"

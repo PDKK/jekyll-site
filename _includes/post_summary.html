@@ -1,0 +1,19 @@
+
+<div class="container" id="blog-features">
+  <div class="row">
+{% for post in site.posts limit:2 %}
+    <article class="col-sm-6 feature-article">
+	  <h2><span>Latest Blog Entries</span></h2>
+	  <h3><a href="#">{{post.title}}</a></h3>
+	  <p class="date">{{post.date | date_to_string }}</p>
+	  {{post.excerpt}}
+	  <p><a href="#">Read more ...</a></p>
+    </article>
+{% endfor %}    
+  </div>
+</div>
+
+
+ 
+
+
