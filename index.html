@@ -10,14 +10,24 @@ layout: home
   <div class="row">
     <div class="col-md-4">
       <h2>Blog</h2>
-      <a href="blog">Click here ...</a>
+{% for post in site.posts limit:2 %}
+    <article class="feature-article">
+          <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
+          <p class="date">{{post.date | date_to_string }}</p>
+          {{post.excerpt}}
+          <p><a href="{{ post.url }}">Read more ...</a></p>
+    </article>
+{% endfor %}    
+      <a href="blog">For the full blog, Click here ...</a>
     </div>
     <div class="col-md-4">
       <h2>Books</h2>
+      A rather dull way of keeping my reading list organised. As I can never remember what I have and haven't read, I can now 
       <a href="books">Click here ...</a>
     </div>
     <div class="col-md-4">
       <h2>Recipes</h2>
+      In an attempt to stop recipe overload and general loss, 
       <a href="recipes">Click here ...</a>
     </div>
   </div>
