@@ -1,10 +1,10 @@
 # Site settings
-title:       Knox-Kennedy
-email:       paul@knox-kennedy.me.uk
-author:      Paul Knox-Kennedy
+title:       The-Kennedys
+email:       paul@the-kennedys.me.uk
+author:      Paul Kennedy
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://www.knox-kennedy.me.uk"
+url:         "http://www.the-kennedys.me.uk"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -23,7 +23,7 @@ ajaxify_contact_form: false
 disqus_shortname:
 
 # Social icons
-github_username:        PDKK
+github_username:        the-kennedys
 bitbucket_username:
 stackoverflow_id:
 twitter_username:       hexelpdkk
@@ -59,3 +59,4 @@ sass:
   compressed: true
 permalink: /blog/:categories/:year/:month/:day/:title.html
 paginate_path: "/blog/page:num/"
+gems: [jekyll-paginate]
